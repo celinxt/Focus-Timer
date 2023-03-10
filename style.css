@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 62.5%;
+  --f-r: "Roboto", sans-serif;
+}
+body {
+  background: #121214;
+  display: grid;
+  justify-self: center;
+  min-height: 100vh;
+}
+
+.hide {
+  display: none;
+}
+
+main {
+  align-self: flex-end;
+}
+
+#timer {
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+span {
+  font-family: var(--f-r);
+  font-size: 8.8rem;
+  color: #fff;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.1, 1.1);
+}
+
+#btnMenu {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+
+  width: 25rem;
+  height: 10rem;
+  margin: auto;
+
+  border-radius: 99rem;
+  background-color: rgba(66, 211, 255, 0.13);
+}
+
+footer {
+  align-self: flex-end;
+  justify-self: end;
+
+  padding: 3rem;
+}

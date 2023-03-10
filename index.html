@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Focus Timer</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+
+    <script src="js/script.js" type="module" defer></script>
+  </head>
+  <body>
+    <main>
+      <div id="timer">
+        <span class="minutes">25</span>
+        <span>:</span>
+        <span class="seconds">00</span>
+      </div>
+
+      <div id="btnMenu">
+        <button class="btnPlay">
+          <img src="assets/play.svg" alt="Button play image" />
+        </button>
+
+        <button class="btnPause hide">
+          <img src="assets/pause.svg" alt="Button pause image" />
+        </button>
+
+        <button class="btnStopwatch">
+          <img src="assets/stopwatch.svg" alt="Button stopwatch image" />
+        </button>
+
+        <button class="btnStop hide">
+          <img src="assets/stop.svg" alt="Button stop image" />
+        </button>
+      </div>
+    </main>
+
+    <footer>
+      <div id="btnMenuFooter">
+        <button class="btnMute hide">
+          <img src="assets/mute.svg" alt="Button mute image" />
+        </button>
+
+        <button class="btnUnmute">
+          <img src="assets/unmute.svg" alt="Button unmute image" />
+        </button>
+      </div>
+    </footer>
+  </body>
+</html>
