@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Pomodoro focus-timer" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- prettier-ignore -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet" />
+    <link rel="shortcut icon" href="assets/favicon.svg" type="image/x-icon" />
+
+    <script src="js/main.js" type="module" defer></script>
+    <title>Focus Timer</title>
+  </head>
+  <body>
+    <main>
+      <div id="timer">
+        <span id="minutes">25</span>
+        <span>:</span>
+        <span id="seconds">00</span>
+      </div>
+
+      <div id="controls">
+        <button class="btn-play">
+          <img src="assets/play.svg" alt="Play button image" />
+        </button>
+
+        <button class="btn-pause hide">
+          <img src="assets/pause.svg" alt="Pause button image" />
+        </button>
+
+        <button class="btn-stopwatch">
+          <img src="assets/stopwatch.svg" alt="Stopwatch button image" />
+        </button>
+
+        <button class="btn-stop hide">
+          <img src="assets/stop.svg" alt="Stop button image" />
+        </button>
+      </div>
+    </main>
+
+    <footer>
+      <div class="mute">
+        <button class="btn-mute">
+          <img src="assets/mute.svg" alt="Mute button image" />
+        </button>
+
+        <button class="btn-unmute hide">
+          <img src="assets/unmute.svg" alt="Mute button image" />
+        </button>
+      </div>
+    </footer>
+  </body>
+</html>
